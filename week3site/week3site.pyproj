@@ -48,6 +48,9 @@
     <Content Include="week3_app\templates\index.html" />
     <Content Include="week3_app\templates\week3_app\hello.html" />
     <Content Include="week3_app\templates\week3_app\order.html" />
+    <Content Include="week3_app\templates\week3_app\template.html" />
+    <Content Include="week3_app\templates\week3_app\template_example.html" />
+    <Content Include="week3_app\templates\week3_app\Week4.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="week3site\" />

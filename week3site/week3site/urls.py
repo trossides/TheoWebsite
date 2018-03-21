@@ -23,5 +23,8 @@ urlpatterns = [
      url(r'^admin/', include(admin.site.urls)),
      url(r'^$', views.hello),
      url(r'^order/?$', views.order),
+     url(r'^Week4/?$', views.Week4),
+     url(r'^template/?$', views.template),
+     url(r'^template_example/?$', views.template_example),
 
 ]

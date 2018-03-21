@@ -21,3 +21,29 @@ def order(request):
     }
     return render(request, 'week3_app/order.html', context_data)
 
+
+    
+def Week4(request):
+    company_name = 'ABC Fruits'
+    name = ['Veronica Jones', 'brian smith', 'Sarah Smith']
+    ship_date = datetime.date(2018, 2, 14)
+    item_list = ['Apples', 'Pears', 'Oranges', 'Dragonfruit']
+    shipping_cost = 140
+    context_data = {
+        'company': company_name,
+        'name_list': name,
+        'ship_date': ship_date,
+        'item_list': item_list,
+        'ordered_warranty': True,
+        'cod_cost': shipping_cost,
+    }
+    return render(request, 'week3_app/Week4.html', context_data)
+
+def template(request):
+	return render(request, 'week3_app/template.html')
+
+def template_example(request):
+    page_data = {
+		# --snip--
+	}
+    return render(request, 'week3_app/template_example.html', page_data)
